@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: lightpink;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+</style>
+</head>
+<body>
+
+<h2>Love Mind and Body?</h2>
+<p>Sign up for our weekly newsletter! Every Monday, you'll get tips and tricks for using essential oils and some recipes uploaded by other users. Don't worry; your information is strictly confidential. Mind and Body will never share your information with a third party.</p>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your Name">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="Your Email Address">
+    </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="mailingaddress">Mailing Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="mailingaddress" name="mailingaddress" placeholder="Your Mailing Address">
+    </div>
+  </div>
+ 
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+</body>
+<nav>
+  <ul>
+     <strong>Navigation</strong>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="stress.html">Stress Relief</a></li>
+    <li><a href="skin.html">Skin</a></li>
+    <li><a href="table.html">Our Favorites</a></li>
+    <li><a href="form.html">Love Mind and Body?</a></li>
+  </ul>
+</nav>
+</html>

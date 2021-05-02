@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Skincare</title>
+</head>
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+</style>
+<body>
+<h1>Essential Oils for Skin Problems</h1>
+<p>A lesser known fact about essential oils is that they can be a natural method for dealing with typical skin problems, <br>ranging from blemishes, redness, and dark circles. They should never be used as a substitute for prescription skincare products and always applied with a carrier oil.<br> Carrier oils are used to dilute the more potent essential oils and "carry" them to your skin.<br> Some popular examples are grapeseed oil and coconut oil.<br>Learn more about essential oils for skin care <a href="https://www.healthline.com/health/essential-oils-for-skin#dry-skin">here</a>.
+</p>
+</body>
+<nav>
+  <ul>
+      <strong>Navigation</strong>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="stress.html">Stress Relief</a></li>
+    <li><a href="skin.html">Skin</a></li>
+    <li><a href="table.html">Our Favorites</a></li>
+    <li><a href="form.html">Love Mind and Body?</a></li>
+  </ul>
+</nav>
+</html>

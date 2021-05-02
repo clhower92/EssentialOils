@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  padding: 70px;
+  border: 1px solid #4CAF50;
+}
+body {
+  background-color: black;
+  color: white;
+}
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid plum;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: black;
+}
+#t01 tr:nth-child(odd) {
+ background-color: black;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Our Favorites</h2>
+
+<table id="t01">
+  <tr>
+    <th>Common Name</th>
+    <th>Scientific Name</th> 
+    <th>Uses</th>
+  </tr>
+  <tr>
+    <td>Lavender</td>
+    <td>Lavendula</td>
+    <td>Anxiety, insomnia, post-operation pain relief, headaches, aromatherapy, perfumes, household fresheners</td>
+  </tr>
+  <tr>
+    <td>Egyptian Lotus</td>
+    <td>Nymphaea Caerulea</td>
+    <td>Sleep aid, anxiety, aphrodisiac, lucid dreaming, relaxant</td>
+  </tr>
+  <tr>
+    <td>Damask Rose</td>
+    <td>Rosa Damascena</td>
+    <td>Skin redness, blemishes, anxiety, flavoring, aromatherapy, perfumes</td>
+ <h4>Note: The listed uses of these plants are from reported experiences, and does not have significant scientific evidence. Use caution when using these. </h4>
+</table>
+ol {
+  background: plum;
+  padding: 10px;
+}
+
+
+ol li {
+  background: seashell;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h2>Our top rose water brands:</h2>
+
+<ol>
+  <li>Ateyla</li>
+  <li>Amoretti</li>
+  <li>7 Roses</li>
+</ol>
+<nav>
+  <ul>
+    <strong>Navigation</strong>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="stress.html">Stress Relief</a></li>
+    <li><a href="skin.html">Skin</a></li>
+    <li><a href="table.html">Our Favorites</a></li>
+    <li><a href="form.html">Love Mind and Body?</a></li>
+  </ul>
+</nav>
+
+</body>
+</html>

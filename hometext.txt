@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+<title> Mind and Body</title>
+</head>
+</style>
+<body>
+<h1>Mind and Body</h1>
+<p>Essential Oils and their Uses</p>
+<img src="https://i.pinimg.com/originals/d6/f6/02/d6f602a27ff1ef4a3610ec2b6208f923.jpg" alt="Wildflower sketch" width="500" height="500">
+<iframe width="300" height="250" src="https://www.youtube.com/watch?v=pwHFxXRl-Ig">
+</iframe>
+</body>
+<nav>
+  <ul>
+    <strong>Navigation</strong>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="stress.html">Stress Relief</a></li>
+    <li><a href="skin.html">Skin</a></li>
+    <li><a href="table.html">Our Favorites</a></li>
+    <li><a href="form.html">Love Mind and Body?</a></li>
+  </ul>
+</nav>
+</html>		
